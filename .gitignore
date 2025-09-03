@@ -1,4 +1,6 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -25,5 +27,18 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### Build Tools ###
+target/                # Maven
+build/                 # Gradle
+.gradle/               # Cache do Gradle
+**/build/              # Outras pastas build
+
+### Logs & Temp ###
+*.log
+*.tmp
+*.swp
+*.swo
+
+### OS files ###
 .DS_Store
+Thumbs.db
